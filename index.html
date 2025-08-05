@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunzu Fresh Eggs - Opening Soon</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .logo-with-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        .logo-with-text img {
+            max-width: 60px;
+            vertical-align: middle;
+        }
+        .logo-with-text span {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #3a76ba;
+            margin-left: 12px;
+            letter-spacing: 1px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        @keyframes flicker {
+            0%, 100% { box-shadow: 0 0 8px #25D366, 0 0 16px #25D366; }
+            50% { box-shadow: 0 0 24px #25D366, 0 0 32px #25D366; }
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-bottom: 30px;
+            animation: flicker 1s infinite;
+            transition: box-shadow 0.3s;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .btn-whatsapp:hover {
+            background: #20b858;
+        }
+        .email-signup {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .email-signup input[type="email"] {
+            padding: 10px;
+            font-size: 1rem;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        .email-signup button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            background: #ffcc00;
+            color: #333;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .email-signup button:hover {
+            background: #ffd633;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-with-text">
+        <img src="logo2.png" alt="Lunzu Fresh Eggs Logo">
+        <span>LUNZU FRESH EGGS</span>
+    </div>
+    <h1>Coming Soon – Your favorite online shop is almost here.</h1>
+    <p>More than just eggs – Stay tuned for our launch!</p>
+    <a href="https://wa.me/27636354587?text=Hello%20Lunzu%20Fresh%20Eggs%2C%20I%E2%80%99d%20like%20to%20order%20fresh%20eggs.%20Please%20send%20me%20today%E2%80%99s%20price%20list%20and%20delivery" class="btn-whatsapp" target="_blank">Contact Us on WhatsApp</a>
+    <div class="email-signup">
+        <input type="email" placeholder="Enter your email">
+        <button>Notify Me</button>
+    </div>
+    <div class="footer">
+        &copy; 2025 Lunzu Fresh Eggs. All rights reserved.
+    </div>
+</body>
+</html>
